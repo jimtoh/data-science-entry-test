@@ -1,8 +1,8 @@
 # Run this script to run the python files located in the src folder
+# In terminal, run the following command: python main.py
 import os
 
-# Get the current working directorycls
-
+# Get the current working directory
 cwd = os.getcwd()
 
 # Get the path of the src folder
@@ -17,5 +17,3 @@ for file in files:
         file_path = os.path.join(src_folder, file)
         os.system(f'python {file_path}')
         print(f'Finished running {file}\n')
-
-
