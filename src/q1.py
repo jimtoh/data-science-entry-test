@@ -17,20 +17,12 @@ def swap(x, y):
     print(x, y)
     return
 
-# Task 1
-# Invoke the function "swap" using the following scenarios:
-# - 10, 20
-print("Task 1")
-print(swap(10, 20)) # Expected output: 20 10
-
-# Task 2
+# Run Task 2
 # Invoke the function "swap" using the following scenarios:
 # - "Apple", 10
-# - 9, 17
-print()
-print("Task 2")
+print("(1) q1_Task 2A:")
 print(swap("Apple", 10)) # Expected output: -1
-print(swap(9, 17)) # Expected output: 17 9
 
-# Run the code
-# python src/q1.py
+# - 9, 17
+print("(2) q1_Task 2B:")
+print(swap(9, 17)) # Expected output: 17 9
